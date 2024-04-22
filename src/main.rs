@@ -3,7 +3,7 @@ use std::cmp::Ordering;
 use std::io::{self, Stdin};
 
 fn main() {
-    /// Toch nieuwe comment
+    /// Toch nieuwe comment of niet
     println!("Guess the number!");
 
     let secret_number = rand::thread_rng().gen_range(1..101);
